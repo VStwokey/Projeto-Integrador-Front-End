@@ -1,4 +1,8 @@
-.section1__main{
+.main{
+    margin: 0;
+}
+
+.section__main{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -6,13 +10,51 @@
     padding: 2.5em 2em;
 }
 
-.section1__main__subtitulo{
+.section__main__subtitulo{
     font-size:2em;
+    text-align: center;
+    padding: 0.5em;
 }
 
-.section1__main__titulo{
-    font-size: 3em;
+
+.section__main__titulo{
+    font-size: 4em;
     display: flex;
     text-align: center;
+    color: var(--cor-amarela);
 }
 
+.section__img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1em 0 0 0;
+}
+
+.peca_agora{
+    padding: 1em 0;
+}
+
+.peca_agora__link{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    border: 4px;
+    padding: 10px 20px;
+    color: var(--cor-branca);
+    border: 1px solid var(--cor-amarela);
+    border-radius: 1.5em;
+
+}
+
+.linha{
+    width: 100%;
+}
+
+.promocao__texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 0 0;
+}
