@@ -1,4 +1,4 @@
-.main{
+.section1__main{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -6,12 +6,13 @@
     padding: 2.5em 2em;
 }
 
-.main__subtitulo{
+.section1__main__subtitulo{
     font-size:2em;
 }
 
-.main__titulo{
+.section1__main__titulo{
     font-size: 3em;
     display: flex;
     text-align: center;
 }
+
