@@ -58,3 +58,35 @@
     text-align: center;
     padding: 1em 0 0 0;
 }
+
+/* -------------------------------------------
+    CARDÁPIO 
+   ------------------------------------------- 
+*/ 
+
+.cardapio__item{
+    display: flex;
+    position: relative;
+}
+
+.cardapio__img {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.cardapio__produto{
+    display: flex;
+    flex-direction:column ;
+}
+
+.produto__titulo{
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.produto__descricao{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0 0.5em 0.5em;
+}

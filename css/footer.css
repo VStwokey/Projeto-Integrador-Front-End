@@ -3,5 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--cor-amarela);
+    height: 20vw;
+}
+
+.rodape__texto{
+    font-size: 0.9em;
+}
+
+.rodape__logo{
+    width: 19%;
+    padding: 0 0.5em 0 0;
 }
 
