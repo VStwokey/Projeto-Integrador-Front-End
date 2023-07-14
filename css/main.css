@@ -96,3 +96,59 @@
     text-align: center;
     color: var(--cor-amarela);
 }
+
+/* -------------------------------------------
+    SOBRE NÓS
+   ------------------------------------------- 
+*/
+
+.sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobrenos__titulo {
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.sobrenos__descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em;
+    line-height: 1em;
+}
+
+.sobre__nos__titulo {
+    padding: 0.5em 0.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.sobre__nos {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5px;
+}
+
+.agradecimento {
+    font-size: 3em;
+    padding: 0.5em 0.5em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.agradecimento__texto {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5px;
+}
