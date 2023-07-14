@@ -2,8 +2,6 @@
 @import url(/css/main.css);
 @import url(/css/footer.css);
 
-
-
 :root {
     --cor-amarela: #FF9F1C;
     --cor-de-fundo: #011627;
@@ -11,7 +9,6 @@
 
     --fonte-principal: "Poppins";
 }
-
 
 body {
     background-color: var(--cor-de-fundo);
