@@ -1,8 +1,8 @@
-.main{
+.main {
     margin: 0;
 }
 
-.section__main{
+.section__main {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -10,32 +10,31 @@
     padding: 2.5em 2em;
 }
 
-.section__main__subtitulo{
-    font-size:2em;
-    text-align: center;
-    padding: 0.5em;
-}
-
-
-.section__main__titulo{
+.section__main__titulo {
     font-size: 4em;
     display: flex;
     text-align: center;
     color: var(--cor-amarela);
 }
 
-.section__img{
+.section__main__subtitulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.section__img {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 1em 0 0 0;
 }
 
-.peca_agora{
+.peca_agora {
     padding: 1em 0;
 }
 
-.peca_agora__link{
+.peca_agora__link {
     display: inline-block;
     justify-content: center;
     text-decoration: none;
@@ -47,24 +46,24 @@
 
 }
 
-.linha{
+.linha {
     width: 100%;
 }
 
-.promocao__texto{
+.promocao__texto {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1em 0 0 0;
+    padding: 1em 0 1em 0;
 }
 
 /* -------------------------------------------
     CARDÁPIO 
    ------------------------------------------- 
-*/ 
+*/
 
-.cardapio__item{
+.cardapio__item {
     display: flex;
     position: relative;
 }
@@ -76,17 +75,24 @@
 }
 
 
-.cardapio__produto{
+.cardapio__produto {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 }
 
-.produto__titulo{
+.produto__titulo {
     padding: 0.5em 0 0.5em 0.5em;
 }
 
-.produto__descricao{
+.produto__descricao {
     display: flex;
     justify-content: center;
     padding: 0.5em 0 0.5em 0.5em;
+}
+
+.bebidas__titulo {
+    font-size: 4em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
 }

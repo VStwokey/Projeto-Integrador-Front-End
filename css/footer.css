@@ -1,4 +1,4 @@
-.rodape{
+.rodape {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -7,12 +7,11 @@
     height: 20vw;
 }
 
-.rodape__texto{
+.rodape__texto {
     font-size: 0.9em;
 }
 
-.rodape__logo{
+.rodape__logo {
     width: 19%;
     padding: 0 0.5em 0 0;
 }
-
