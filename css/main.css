@@ -161,6 +161,51 @@
 }
 
 /* -------------------------------------------
-    DELIVERY
+    CADASTRO
    ------------------------------------------- 
 */
+
+.cadastroForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.cadastro__titulo {
+    font-size: 3em;
+    padding: 0.5em 0.5em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.form__campo {
+    padding: 1em 1em;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form__campo__input {
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-amarela);
+    border-radius: 1em;
+    color: var(--cor-branca);
+    padding: 0.5em 0.5em;
+}
+
+.form__cadastrar {
+    padding: 1em 0.5em;
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-amarela);
+    border-radius: 1em;
+    color: var(--cor-branca);
+    margin: 1.2em;
+}
+
+.form__cadastrar:hover {
+    background-color: var(--cor-amarela);
+}

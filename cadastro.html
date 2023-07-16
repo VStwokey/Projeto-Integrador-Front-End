@@ -43,11 +43,28 @@
         </div>
     </header>
     <main class="main">
-        <section class="section__main__delivery">
-            <form action="enviar" method="get"></form>
-        </section>
-        <section class="section__main__retirar">
+        <section class="section__main">
 
+            <h1 class="cadastro__titulo">CADASTRO</h1>
+
+            <form class="cadastroForm" id="cadastroForm" method="get">
+                <label class="form__campo" for="nome">Nome:</label>
+                <input class="form__campo__input" type="text" id="nome" name="nome" required>
+
+                <label class="form__campo" for="sobrenome">Sobrenome:</label>
+                <input class="form__campo__input" type="text" id="sobrenome" name="sobrenome" required>
+
+                <label class="form__campo" for="email">E-mail:</label>
+                <input class="form__campo__input" type="email" id="email" name="email" required><br>
+
+                <label class="form__campo" for="senha">Senha:</label>
+                <input class="form__campo__input" type="password" id="senha" name="senha" required><br>
+
+                <label class="form__campo" for="confirmarSenha">Confirmar Senha:</label>
+                <input class="form__campo__input" type="password" id="confirmarSenha" name="confirmarSenha" required><br>
+
+                <button class="form__cadastrar" type="submit">Cadastrar</button>
+            </form>
         </section>
     </main>
     <footer class="rodape">
