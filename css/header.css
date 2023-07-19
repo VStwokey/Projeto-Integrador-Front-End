@@ -47,6 +47,10 @@
     width: 60vw;
 }
 
+.lista-menu-sec{
+    display: none;
+}
+
 .menu__botao:checked~.lista-menu {
     display: block;
 }
@@ -82,4 +86,39 @@
     height: 2.5em;
     padding: 0 0 0 0.5em;
     background-color: var(--azul-degrade);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho__nav {
+        display: flex
+    }
+
+    .menu__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .lista-menu__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-menu-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        width: 10%;
+    }
+
 }

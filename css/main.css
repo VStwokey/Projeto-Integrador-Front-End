@@ -169,7 +169,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .cadastro__titulo {
@@ -186,7 +186,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .form__campo__input {
@@ -208,4 +208,25 @@
 
 .form__cadastrar:hover {
     background-color: var(--cor-amarela);
+}
+
+@media screen and (min-width: 1024px) {
+
+    .section__img {
+        width: 40%;
+    }
+
+    .peca_agora__link {
+        padding: 0.8em 0.8em;
+    }
+
+    .promocao__texto {
+        width: 50%;
+    }
+
+    .sobrenos__descricao {
+        display: flex;
+        justify-content: center;
+    }
+
 }
