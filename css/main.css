@@ -41,7 +41,7 @@
     padding: 1em 0;
 }
 
-.peca_agora__link {
+.botao__link {
     display: inline-block;
     justify-content: center;
     text-decoration: none;
@@ -65,6 +65,14 @@
     padding: 1em 0 1em 0;
 }
 
+.sobrenos__descricao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 1em;
+    line-height: 1em;
+}
+
 /* -------------------------------------------
     CARDÁPIO 
    ------------------------------------------- 
@@ -73,6 +81,7 @@
 .cardapio__item {
     display: flex;
     position: relative;
+    width: 100%;
 }
 
 .cardapio__img {
@@ -81,6 +90,13 @@
     justify-content: flex-start;
 }
 
+.cardapio__img__frango {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
 
 .cardapio__produto {
     display: flex;
@@ -104,6 +120,20 @@
     color: var(--cor-amarela);
 }
 
+.cardapio__refrigerante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.cardapio__suco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
 /* -------------------------------------------
     SOBRE NÓS
    ------------------------------------------- 
@@ -120,14 +150,6 @@
     display: flex;
     text-align: center;
     color: var(--cor-amarela);
-}
-
-.sobrenos__descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em 1em;
-    line-height: 1em;
 }
 
 .sobre__nos__titulo {
@@ -213,7 +235,7 @@
 @media screen and (min-width: 1024px) {
 
     .section__img {
-        width: 40%;
+        width: 50%;
     }
 
     .peca_agora__link {
@@ -227,6 +249,34 @@
     .sobrenos__descricao {
         display: flex;
         justify-content: center;
+    }
+
+    .recepcao {
+        font-size: 1.3em;
+    }
+
+    .promocao__texto {
+        font-size: 1.3em;
+    }
+
+    .sobrenos__descricao {
+        font-size: 1.3em;
+    }
+
+    .botao__link {
+        font-size: 1.2em;
+    }
+
+    /*  -------------------------------------------
+        CARDÁPIO 
+        ------------------------------------------- 
+    */
+
+    .cardapio__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
     }
 
 }
