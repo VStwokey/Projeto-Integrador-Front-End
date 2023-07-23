@@ -78,6 +78,14 @@
    ------------------------------------------- 
 */
 
+.cardapio__recepcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
 .cardapio__item {
     display: flex;
     position: relative;
@@ -238,6 +246,10 @@
         width: 50%;
     }
 
+    .linha {
+        margin: 1.5em;
+    }
+
     .peca_agora__link {
         padding: 0.8em 0.8em;
     }
@@ -245,6 +257,12 @@
     .promocao__texto {
         width: 50%;
     }
+
+    /* 
+        -------------------------------------------
+        SOBRE NÓS
+        ------------------------------------------- 
+    */
 
     .sobrenos__descricao {
         display: flex;
@@ -279,4 +297,45 @@
         width: 30%;
     }
 
+    .cardapio__item {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cardapio__produto {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .produto__titulo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .produto__descricao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .cardapio__refrigerante {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 9%;
+        padding: 0 0 0 6em;
+    }
+
+    .cardapio__suco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16%;
+        padding: 0 0 0 4em;
+    }
 }
