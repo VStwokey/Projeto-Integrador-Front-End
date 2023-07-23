@@ -96,7 +96,7 @@
 }
 
 .cardapio__img {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: flex-start;
 }
@@ -105,7 +105,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 45%;
+}
+
+.cardapio__img__portuguesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
 }
 
 .cardapio__produto {
@@ -125,6 +132,15 @@
     padding: 0.5em 0 0.5em 0.5em;
 }
 
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 0 0;
+    font-size: 1.3em;
+}
+
 .bebidas__titulo {
     font-size: 4em;
     display: flex;
@@ -137,14 +153,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
+    padding: 0 0 0 1em;
 }
 
 .cardapio__suco {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 35%;
+}
+
+.botao__link {
+    display: flex;
+    justify-content: center;
 }
 
 /* -------------------------------------------
@@ -252,6 +274,33 @@
     background-color: var(--cor-amarela);
 }
 
+    /* 
+        -------------------------------------------
+        CARRINHO
+        ------------------------------------------- 
+    */
+
+.carrinho__recepcao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
+
 @media screen and (min-width: 1024px) {
 
     .section__img {
@@ -306,7 +355,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30%;
+        width: 25%;
+    }
+
+    .cardapio__img__frango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    .cardapio__img__portuguesa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26%;
     }
 
     .cardapio__item {
@@ -335,6 +398,15 @@
         font-size: 1.5em;
     }
 
+    .preco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 0 0;
+        font-size: 1.6em;
+    }
+    
     .cardapio__refrigerante {
         display: flex;
         justify-content: center;
@@ -376,7 +448,7 @@
         align-items: center;
         font-size: 1.5em;
     }
-    
+
     .form__campo__input {
         background-color: var(--cor-de-fundo);
         border: 2px solid var(--cor-amarela);
@@ -384,17 +456,28 @@
         color: var(--cor-branca);
         padding: 0.7em 2em;
     }
-    
+
     .form__cadastrar {
-        padding: 1em 0.5mm;
         background-color: var(--cor-de-fundo);
         border: 2px solid var(--cor-amarela);
         border-radius: 1em;
         color: var(--cor-branca);
         margin: 1.2em;
     }
-    
+
     .form__cadastrar:hover {
         background-color: var(--cor-amarela);
+    }
+
+     /*  -------------------------------------------
+        CARRINHO
+        ------------------------------------------- 
+    */
+
+    .carrinho__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.8em;
     }
 }
