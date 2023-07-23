@@ -24,7 +24,7 @@
 }
 
 .recepcao {
-    padding: 1em 1em;
+    padding: 1em 1em 2em 1em;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -34,7 +34,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 1em 0 0 0;
+    border: 3px solid var(--cor-amarela);
+    border-radius: 4px;
 }
 
 .peca_agora {
@@ -55,6 +56,7 @@
 
 .linha {
     width: 100%;
+    margin: 1em;
 }
 
 .promocao__texto {
@@ -88,7 +90,8 @@
 
 .cardapio__item {
     display: flex;
-    position: relative;
+    justify-content: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -103,11 +106,12 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    
 }
 
 .cardapio__produto {
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -124,6 +128,7 @@
 .bebidas__titulo {
     font-size: 4em;
     display: flex;
+    justify-content: center;
     text-align: center;
     color: var(--cor-amarela);
 }
@@ -172,6 +177,7 @@
     padding: 1em 1em;
     display: flex;
     justify-content: flex-start;
+    line-height: 1.5;
     letter-spacing: 0.5px;
 }
 
@@ -188,6 +194,7 @@
     display: flex;
     justify-content: flex-start;
     letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
 /* -------------------------------------------
@@ -199,7 +206,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
 
+.cadastro__recepcao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .cadastro__titulo {
@@ -309,7 +321,7 @@
         padding: 1em 1em;
     }
 
-    .produto__titulo{
+    .produto__titulo {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -337,5 +349,52 @@
         align-items: center;
         width: 16%;
         padding: 0 0 0 4em;
+    }
+
+    .cardapio__recepcao {
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    /*  -------------------------------------------
+        CADASTRO 
+        ------------------------------------------- 
+    */
+
+    .cadastro__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .form__campo {
+        padding: 1em 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+    
+    .form__campo__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 0.7em 2em;
+    }
+    
+    .form__cadastrar {
+        padding: 1em 0.5mm;
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+    }
+    
+    .form__cadastrar:hover {
+        background-color: var(--cor-amarela);
     }
 }
