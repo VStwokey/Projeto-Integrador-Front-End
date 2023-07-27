@@ -158,7 +158,7 @@
 
 .bebidas__descricao {
     display: flex;
-    text-align: center  ;
+    text-align: center;
     font-size: 1.3em;
 }
 
@@ -580,7 +580,7 @@
     .linha {
         margin: 1.5em;
     }
-     
+
     .botao__link {
         display: inline-block;
         justify-content: center;
@@ -620,5 +620,29 @@
 
     .sobrenos__titulo {
         font-size: 4em;
+    }
+
+    /*  -------------------------------------------
+        SOBRE NÓS
+        ------------------------------------------- 
+    */
+
+    .sobre__nos__titulo {
+        font-size: 6em;
+    }
+
+    .sobre__nos {
+        font-size: 2em;
+        justify-content: flex-start;
+        padding: 2em 4em;
+    }
+
+    .agradecimento {
+        font-size: 6em;
+    }
+
+    .agradecimento__texto {
+        font-size: 2em;
+        padding: 2em 4em;
     }
 }
