@@ -48,7 +48,7 @@
             </ul>
         </nav>
         <div class="container">
-            <a href="user.html" class="container__link">
+            <a href="#" class="container__link">
                 <img src="/img/Usuario.svg" alt="ícone de usuário">
             </a>
             <!-- <a class="container__link__carrinho" href="carrinho.html">
@@ -58,31 +58,34 @@
     </header>
     <main class="main">
         <section class="section__main">
+            <h3 class="section__main__subtitulo">Seja Bem-Vindo</h3>
+            <h1 class="section__main__titulo">Lucas Henrique</h1>
 
-            <h1 class="cadastro__titulo">CADASTRO</h1>
-            <p class="cadastro__recepcao">Tenha uma conta conosco e receba as melhores promoções!</p>
+            <img class="user__icone" src="img/foto-idodo-m.png" alt="">
 
-            <form class="cadastroForm" id="cadastroForm" method="get">
-                <label class="form__campo" for="nome">Nome:</label>
-                <input class="form__campo__input" type="text" id="nome" name="nome" required>
+            <form class="userForm" id="userForm" method="get">
 
-                <label class="form__campo" for="sobrenome">Sobrenome:</label>
-                <input class="form__campo__input" type="text" id="sobrenome" name="sobrenome" required>
+                <div class="form__campos">
+                    <label class="user__form" for="nome">Nome:</label>
+                    <input class="user__form__input" type="text" id="nome" name="nome" placeholder="" required>
 
-                <label class="form__campo" for="email">E-mail:</label>
-                <input class="form__campo__input" type="email" id="email" name="email" required><br>
+                    <label class="user__form" for="sobrenome">Sobrenome:</label>
+                    <input class="user__form__input" type="text" id="sobrenome" name="sobrenome" placeholder=""
+                        required>
+                </div>
 
-                <label class="form__campo" for="Telefone">Telefone:</label>
-                <input class="form__campo__input" type="password" id="Telefone" name="Telefone" required><br>
+                <div class="form__campos">
+                    <label class="user__form" for="email">E-mail:</label>
+                    <input class="user__form__input" type="email" id="email" name="email" placeholder="" required><br>
 
-                <label class="form__campo" for="senha">Senha:</label>
-                <input class="form__campo__input" type="password" id="senha" name="senha" required><br>
+                    <label class="user__form" for="Telefone">Telefone:</label>
+                    <input class="user__form__input" type="password" id="Telefone" name="Telefone" placeholder=""
+                        required><br>
+                </div>
 
-                <label class="form__campo" for="confirmarSenha">Confirmar Senha:</label>
-                <input class="form__campo__input" type="password" id="confirmarSenha" name="confirmarSenha"
-                    required><br>
-
-                <button class="form__cadastrar" type="submit">Cadastrar</button>
+                <div class="botao__alterar">
+                    <button class="user__alterar" type="submit">Alterar</button>
+                </div>
             </form>
         </section>
     </main>
@@ -91,6 +94,7 @@
         <p class="rodape__texto">Todos os direitos reservados &copy;</p>
         <p class="rodape__data">Atuando desde 2023!</p>
     </footer>
+
 </body>
 
 </html>
