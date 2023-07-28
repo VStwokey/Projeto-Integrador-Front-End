@@ -74,19 +74,12 @@
     display: none;
 }
 
-.container {
+.user__container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 1.5em;
 }
-
-/* .container__link__carrinho img {
-    width: 2.5em;
-    height: 2.5em;
-    padding: 0 0 0 0.5em;
-    background-color: var(--azul-degrade);
-} */
 
 @media screen and (min-width: 1024px) {
 
@@ -116,14 +109,30 @@
         justify-content: center;
         align-items: center;
     }
+    
+    .lista-menu__link {
+        font-size: 1.2em;
+    }
 
     .cabecalho__logo {
-        width: 10%;
+        width: 12%;
+    }
+
+    .user__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+    }
+
+    .user__link {
+        width: 120%;
     }
 
 }
 
 @media screen and (min-width: 1728px) {
+    
     .cabecalho__menu-hamburguer {
         display: none;
     }
@@ -153,7 +162,7 @@
     }
 
     .user__link {
-        width: 250%;
+        width: 200%;
         justify-content: flex-end;
     }
 
@@ -164,6 +173,6 @@
     }
 
     .cabecalho__logo {
-        width: 15%;
+        width: 12%;
     }
 }

@@ -232,86 +232,25 @@
 }
 
 /* -------------------------------------------
-    CADASTRO
+    CONTATO
    ------------------------------------------- 
 */
 
-.cadastroForm {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.cadastro__recepcao {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.cadastro__titulo {
-    font-size: 3em;
+.contato__titulo {
+    font-size: 4em;
     padding: 0.5em 0.5em;
     display: flex;
     text-align: center;
     color: var(--cor-amarela);
 }
 
-.form__campo {
-    padding: 1em 1em;
-    background-color: var(--cor-de-fundo);
+.contato__recepcao {
     display: flex;
     justify-content: center;
-    align-items: center;
-
-}
-
-.form__campo__input {
-    background-color: var(--cor-de-fundo);
-    border: 2px solid var(--cor-amarela);
-    border-radius: 1em;
-    color: var(--cor-branca);
-    padding: 0.5em 0.5em;
-}
-
-.form__cadastrar {
-    padding: 1em 0.5em;
-    background-color: var(--cor-de-fundo);
-    border: 2px solid var(--cor-amarela);
-    border-radius: 1em;
-    color: var(--cor-branca);
-    margin: 1.2em;
-}
-
-.form__cadastrar:hover {
-    background-color: var(--cor-amarela);
-}
-
-/* 
-        -------------------------------------------
-        CARRINHO
-        ------------------------------------------- 
-    */
-
-/* .carrinho__recepcao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    line-height: 1.5;
     font-size: 1em;
 }
 
-.menu {
-    display: none;
-}
-
-.menu-button {
-    cursor: pointer;
-    padding: 8px 12px;
-    background-color: #007bff;
-    color: #fff;
-    border: 1px solid #007bff;
-    border-radius: 4px;
-} */
 
 /* 
         -------------------------------------------
@@ -449,57 +388,20 @@
     }
 
     /*  -------------------------------------------
-        CADASTRO 
+        CONTATO
         ------------------------------------------- 
     */
 
-    .cadastro__recepcao {
+    .contato__titulo {
+        font-size: 3em;
+    }
+
+    .contato__recepcao {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: 1.5em;
     }
-
-    .form__campo {
-        padding: 1em 1em;
-        background-color: var(--cor-de-fundo);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5em;
-    }
-
-    .form__campo__input {
-        background-color: var(--cor-de-fundo);
-        border: 2px solid var(--cor-amarela);
-        border-radius: 1em;
-        color: var(--cor-branca);
-        padding: 0.7em 2em;
-    }
-
-    .form__cadastrar {
-        background-color: var(--cor-de-fundo);
-        border: 2px solid var(--cor-amarela);
-        border-radius: 1em;
-        color: var(--cor-branca);
-        margin: 1.2em;
-    }
-
-    .form__cadastrar:hover {
-        background-color: var(--cor-amarela);
-    }
-
-    /*  -------------------------------------------
-        CARRINHO
-        ------------------------------------------- 
-    */
-
-    /* .carrinho__recepcao {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 1.8em;
-    } */
 
     /*  -------------------------------------------
         USUÁRIO
@@ -557,24 +459,24 @@
 @media screen and (min-width: 1728px) {
 
     .section__main__titulo {
-        font-size: 8em;
+        font-size: 5em;
         display: flex;
         text-align: center;
         color: var(--cor-amarela);
     }
 
     .section__main__subtitulo {
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
         padding: 0.5em;
     }
 
     .section__img {
-        width: 50%;
+        width: 45%;
     }
 
     .sobrenos__descricao {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .linha {
@@ -586,7 +488,7 @@
         justify-content: center;
         text-decoration: none;
         border: 4px;
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 1em 1em;
         color: var(--cor-branca);
         border: 6px solid var(--cor-amarela);
@@ -609,7 +511,7 @@
     .section__img {
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 40%;
         border: 6px solid var(--cor-amarela);
         border-radius: 4px;
     }
@@ -628,21 +530,113 @@
     */
 
     .sobre__nos__titulo {
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .sobre__nos {
-        font-size: 2em;
+        font-size: 1.5em;
         justify-content: flex-start;
         padding: 2em 4em;
     }
 
     .agradecimento {
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .agradecimento__texto {
-        font-size: 2em;
+        font-size: 1.5em;
         padding: 2em 4em;
     }
+
+    /*  -------------------------------------------
+        CARDÁPIO
+        ------------------------------------------- 
+    */
+
+    .cardapio__recepcao {
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .cardapio__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .cardapio__img__frango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .cardapio__img__portuguesa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+    }
+
+    .cardapio__item {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .cardapio__produto {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .produto__titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .produto__descricao {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .preco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 0 0;
+        font-size: 2.5em;
+    }
+
+    .bebidas__titulo {
+        font-size: 4em;
+    }
+
+    .bebidas__descricao {
+        font-size: 2em;
+        padding: 0 0 1em 0;
+    }
+
+    .cardapio__refrigerante {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        margin: 4em;
+    }
+
+    .cardapio__suco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14%;
+        margin: 2em;
+    }
+
 }
