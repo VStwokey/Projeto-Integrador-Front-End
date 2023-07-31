@@ -251,14 +251,97 @@
     font-size: 1em;
 }
 
+.BordaContatos {
+    border: 3px solid var(--cor-amarela);
+    border-radius: 2em;
+}
 
-/* 
+.Contato__Mail {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.Contato__Telefone {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.Contato__Endereco {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.contato__texto {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.contato__agradecimento {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 1em 0;
+}
+
+
+    /* 
         -------------------------------------------
         USUÁRIO
         ------------------------------------------- 
     */
 
+    .user__icone {
+        margin: 1.5em;
+    }
 
+    .userForm {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form__campos {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user__form {
+        padding: 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__form__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 0.5em 0.5em;
+        margin: 1em;
+    }
+
+    .botao__alterar {
+        align-items: center;
+    }
+
+    .user__alterar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+        flex-direction: column;
+        display: flex;
+        padding: 1.5em 2em;
+    }
 
 @media screen and (min-width: 1024px) {
 
@@ -403,6 +486,40 @@
         font-size: 1.5em;
     }
 
+    .Contato__Mail {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .Contato__Telefone {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .Contato__Endereco {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .contato__texto {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 1.5em;
+    }
+    
+    .contato__agradecimento {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 1.5em;
+        padding: 1em 0;
+    }
+    
+
     /*  -------------------------------------------
         USUÁRIO
         ------------------------------------------- 
@@ -452,14 +569,14 @@
         margin: 1.2em;
         flex-direction: column;
         display: flex;
-        padding: 3em 2em;
+        padding: 2em 2em;
     }
 }
 
 @media screen and (min-width: 1728px) {
 
     .section__main__titulo {
-        font-size: 5em;
+        font-size: 4.8em;
         display: flex;
         text-align: center;
         color: var(--cor-amarela);
@@ -521,7 +638,7 @@
     }
 
     .sobrenos__titulo {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     /*  -------------------------------------------
@@ -637,6 +754,112 @@
         align-items: center;
         width: 14%;
         margin: 2em;
+    }
+
+     /*  -------------------------------------------
+        CONTATO
+        ------------------------------------------- 
+    */
+
+    .contato__titulo {
+        font-size: 4.5em;
+    }
+
+    .contato__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+        margin: 0 3em;
+    }
+
+    .Contato__Mail {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .Contato__Telefone {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .Contato__Endereco {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .contato__texto {
+        display: flex;
+        text-align: start;
+        line-height: 1.5;
+        font-size: 2em;
+        margin: 0 3em;
+    }
+    
+    .contato__agradecimento {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 2em;
+        padding: 1em 0;
+    }
+
+        /*  -------------------------------------------
+        USUÁRIO
+        ------------------------------------------- 
+    */
+
+    .user__icone {
+        margin: 2em;
+        width: 18%;
+    }
+
+    .userForm {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .form__campos {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user__form {
+        padding: 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    .user__form__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 1.3em 1.5em;
+        margin: 1em;
+    }
+
+    .botao__alterar {
+        align-items: center;
+    }
+
+    .user__alterar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+        flex-direction: column;
+        display: flex;
+        padding: 2em 1.5em;
+        font-size: 2em;
     }
 
 }
