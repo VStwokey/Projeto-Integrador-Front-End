@@ -397,6 +397,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 1em;
         width: 25%;
     }
 
@@ -404,6 +405,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 1em;
         width: 25%;
     }
 
@@ -411,13 +413,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 1em;
         width: 26%;
     }
 
     .cardapio__item {
         display: flex;
+        justify-content: flex-start;
+        align-items: center;
         flex-direction: row;
 
+    }
+
+    .cardapio__img__doce {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+    }
+
+    .cardapio__img__morango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28%;
     }
 
     .cardapio__produto {
@@ -431,6 +450,7 @@
         justify-content: center;
         text-align: center;
         font-size: 2em;
+        margin: 1em 2em;
     }
 
     .produto__descricao {
@@ -438,6 +458,7 @@
         justify-content: center;
         text-align: center;
         font-size: 1.5em;
+        margin: 1em 2em;
     }
 
     .preco {
@@ -454,7 +475,7 @@
         justify-content: center;
         align-items: center;
         width: 12%;
-        margin: 4em;
+        margin: 3em;
     }
 
     .cardapio__suco {
@@ -462,7 +483,7 @@
         justify-content: center;
         align-items: center;
         width: 16%;
-        margin: 2em;
+        margin: 3em;
     }
 
     .cardapio__recepcao {
