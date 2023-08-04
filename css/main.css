@@ -116,7 +116,31 @@
     justify-content: center;
     align-items: center;
     margin: 1em;
-    width: 40%;
+    width: 42%;
+}
+
+.cardapio__img__doce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 0.2em;
+}
+
+.cardapio__img__morango {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 0.2em;
+}
+
+.cardapio__img__camarao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    margin: 1em;
 }
 
 .cardapio__produto {
@@ -417,6 +441,14 @@
         width: 26%;
     }
 
+    .cardapio__img__camarao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26%;
+        margin: 1em;
+    }
+
     .cardapio__item {
         display: flex;
         justify-content: flex-start;
@@ -715,6 +747,30 @@
         justify-content: center;
         align-items: center;
         width: 21%;
+    }
+
+    .cardapio__img__camarao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
+    }
+
+    .cardapio__img__doce {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
+    }
+
+    .cardapio__img__morango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
     }
 
     .cardapio__item {
