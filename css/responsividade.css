@@ -1,0 +1,730 @@
+@media screen and (min-width: 1024px) {
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho__nav {
+        display: flex
+    }
+
+    .menu__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .lista-menu__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-menu-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lista-menu__link {
+        font-size: 1.2em;
+    }
+
+    .cabecalho__logo {
+        width: 12%;
+    }
+
+    .user__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+    }
+
+    .user__link {
+        width: 120%;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .menu__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .lista-menu__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-menu__link {
+        font-size: 2em;
+    }
+
+    .user__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .user__link {
+        width: 200%;
+        justify-content: flex-end;
+    }
+
+    .lista-menu-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .section__img {
+        width: 50%;
+    }
+
+    .linha {
+        margin: 1.5em;
+    }
+
+    .peca_agora__link {
+        padding: 0.8em 0.8em;
+    }
+
+    .promocao__texto {
+        width: 50%;
+    }
+
+    /* 
+        -------------------------------------------
+        SOBRE NÓS
+        ------------------------------------------- 
+    */
+
+    .sobrenos__descricao {
+        display: flex;
+        justify-content: center;
+    }
+
+    .recepcao {
+        font-size: 1.3em;
+    }
+
+    .promocao__texto {
+        font-size: 1.3em;
+    }
+
+    .sobrenos__descricao {
+        font-size: 1.3em;
+    }
+
+    .botao__link {
+        font-size: 1.2em;
+    }
+
+    /*  -------------------------------------------
+        CARDÁPIO 
+        ------------------------------------------- 
+    */
+
+    .cardapio__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+        width: 25%;
+    }
+
+    .cardapio__img__frango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+        width: 25%;
+    }
+
+    .cardapio__img__portuguesa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+        width: 26%;
+    }
+
+    .cardapio__img__camarao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26%;
+        margin: 1em;
+    }
+
+    .cardapio__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .cardapio__img__doce {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+    }
+
+    .cardapio__img__morango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28%;
+    }
+
+    .cardapio__produto {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .produto__titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+        margin: 1em 2em;
+    }
+
+    .produto__descricao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 1em 2em;
+    }
+
+    .preco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 0 0;
+        font-size: 1.6em;
+    }
+
+    .cardapio__refrigerante {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 12%;
+        margin: 3em;
+    }
+
+    .cardapio__suco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16%;
+        margin: 3em;
+    }
+
+    .cardapio__recepcao {
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    /*  -------------------------------------------
+        CONTATO
+        ------------------------------------------- 
+    */
+
+    .contato__titulo {
+        font-size: 3em;
+    }
+
+    .contato__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .Contato__Mail {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .Contato__Telefone {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .Contato__Endereco {
+        text-align: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .contato__texto {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 1.5em;
+    }
+    
+    .contato__agradecimento {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 1.5em;
+        padding: 1em 0;
+    }
+    
+
+    /*  -------------------------------------------
+        USUÁRIO
+        ------------------------------------------- 
+    */
+
+    .user__icone {
+        margin: 1.5em;
+    }
+
+    .userForm {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .form__campos {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user__form {
+        padding: 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__form__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 0.5em 0.5em;
+        margin: 1em;
+    }
+
+    .botao__alterar {
+        align-items: center;
+    }
+
+    .user__alterar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+        flex-direction: column;
+        display: flex;
+        padding: 2em 2em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .section__main__titulo {
+        font-size: 4.8em;
+        display: flex;
+        text-align: center;
+        color: var(--cor-amarela);
+    }
+
+    .section__main__subtitulo {
+        font-size: 3em;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .section__img {
+        width: 45%;
+    }
+
+    .sobrenos__descricao {
+        font-size: 1.6em;
+    }
+
+    .linha {
+        margin: 1.5em;
+    }
+
+    .botao__link {
+        display: inline-block;
+        justify-content: center;
+        text-decoration: none;
+        border: 4px;
+        font-size: 1.5em;
+        padding: 1em 1em;
+        color: var(--cor-branca);
+        border: 6px solid var(--cor-amarela);
+        border-radius: 1.5em;
+    }
+
+    .promocao__texto {
+        width: 50%;
+        font-size: 2em;
+    }
+
+    .recepcao {
+        padding: 1em 1em 2em 1em;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section__img {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        border: 6px solid var(--cor-amarela);
+        border-radius: 4px;
+    }
+
+    .peca_agora {
+        padding: 1em 0;
+    }
+
+    .sobrenos__titulo {
+        font-size: 3.5em;
+    }
+
+    /*  -------------------------------------------
+        SOBRE NÓS
+        ------------------------------------------- 
+    */
+
+    .sobre__nos__titulo {
+        font-size: 4em;
+    }
+
+    .sobre__nos {
+        font-size: 1.5em;
+        justify-content: flex-start;
+        padding: 2em 4em;
+    }
+
+    .agradecimento {
+        font-size: 4em;
+    }
+
+    .agradecimento__texto {
+        font-size: 1.5em;
+        padding: 2em 4em;
+    }
+
+    /*  -------------------------------------------
+        CARDÁPIO
+        ------------------------------------------- 
+    */
+
+    .cardapio__recepcao {
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .cardapio__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .cardapio__img__frango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+
+    .cardapio__img__portuguesa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+    }
+
+    .cardapio__img__camarao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
+    }
+
+    .cardapio__img__doce {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
+    }
+
+    .cardapio__img__morango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21%;
+        margin: 1em;
+    }
+
+    .cardapio__item {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .cardapio__produto {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .produto__titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .produto__descricao {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        font-size: 2.2em;
+    }
+
+    .preco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 0 0;
+        font-size: 2.5em;
+    }
+
+    .bebidas__titulo {
+        font-size: 4em;
+    }
+
+    .bebidas__descricao {
+        font-size: 2em;
+        padding: 0 0 1em 0;
+    }
+
+    .cardapio__refrigerante {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        margin: 4em;
+    }
+
+    .cardapio__suco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14%;
+        margin: 2em;
+    }
+
+     /*  -------------------------------------------
+        CONTATO
+        ------------------------------------------- 
+    */
+
+    .contato__titulo {
+        font-size: 4.5em;
+    }
+
+    .contato__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+        margin: 0 3em;
+    }
+
+    .Contato__Mail {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .Contato__Telefone {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .Contato__Endereco {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    
+    .contato__texto {
+        display: flex;
+        text-align: start;
+        line-height: 1.5;
+        font-size: 2em;
+        margin: 0 3em;
+    }
+    
+    .contato__agradecimento {
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        font-size: 2em;
+        padding: 1em 0;
+    }
+
+        /*  -------------------------------------------
+        USUÁRIO
+        ------------------------------------------- 
+    */
+
+    .user__icone {
+        margin: 2em;
+        width: 18%;
+    }
+
+    .userForm {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .form__campos {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user__form {
+        padding: 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    .user__form__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 1.3em 1.5em;
+        margin: 1em;
+    }
+
+    .botao__alterar {
+        align-items: center;
+    }
+
+    .user__alterar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+        flex-direction: column;
+        display: flex;
+        padding: 2em 1.5em;
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--cor-amarela);
+        height: 9vw;
+        position: relative;
+        clear: both;
+
+    }
+
+    .rodape__logo {
+
+        width: 6%;
+        padding: 0 0.5em 0 0;
+    }
+
+    .rodape__texto {
+        font-size: 1.2em;
+    }
+
+    .rodape__data {
+        display: flex;
+        font-size: 1.2em;
+        padding: 0 1em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--cor-amarela);
+        height: 9vw;
+        position: relative;
+        clear: both;
+
+    }
+
+    .rodape__logo {
+
+        width: 8%;
+        padding: 0 0.5em 0 0;
+    }
+
+    .rodape__texto {
+        font-size: 2.2em;
+    }
+
+    .rodape__data {
+        display: flex;
+        font-size: 2em;
+        padding: 0 1em;
+    }
+}
